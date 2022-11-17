@@ -28,7 +28,7 @@ app.UseOutputCache();
 app.MapGet("/", () =>
 {
     return Results.Ok(DateTime.UtcNow);
-}).CacheOutput();
+}).CacheOutput("Custom");
 
 
 if (app.Environment.IsDevelopment())
