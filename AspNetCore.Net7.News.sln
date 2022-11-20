@@ -5,7 +5,16 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rating_Limiting", "Rating_Limiting\Rating_Limiting\Rating_Limiting.csproj", "{053D150F-BEFA-4F93-8846-7A50E32440F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Output_Caching", "Output_Caching\Output_Caching.csproj", "{101CA48E-49D1-4BE8-9AB0-30AD4978B648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Output_Caching", "Output_Caching\Output_Caching.csproj", "{101CA48E-49D1-4BE8-9AB0-30AD4978B648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Client_Results", "SignalR_Client_Results\SignalR_Client_Results.csproj", "{BB550F2A-0D01-4F29-87BD-D56D4D189A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Console_Client", "SignalR_Console_Client\SignalR_Console_Client.csproj", "{48FF485B-7AFE-4C1B-9E98-0B2284D3A840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR_Javascript_Client", "SignalR_Javascript_Client", "{5AB8B03A-490A-43E9-8549-01758060ED27}"
+	ProjectSection(SolutionItems) = preProject
+		SignalR_Javascript_Client\index.html = SignalR_Javascript_Client\index.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,14 @@ Global
 		{101CA48E-49D1-4BE8-9AB0-30AD4978B648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{101CA48E-49D1-4BE8-9AB0-30AD4978B648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101CA48E-49D1-4BE8-9AB0-30AD4978B648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB550F2A-0D01-4F29-87BD-D56D4D189A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB550F2A-0D01-4F29-87BD-D56D4D189A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB550F2A-0D01-4F29-87BD-D56D4D189A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB550F2A-0D01-4F29-87BD-D56D4D189A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FF485B-7AFE-4C1B-9E98-0B2284D3A840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FF485B-7AFE-4C1B-9E98-0B2284D3A840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FF485B-7AFE-4C1B-9E98-0B2284D3A840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FF485B-7AFE-4C1B-9E98-0B2284D3A840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

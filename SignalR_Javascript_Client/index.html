@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="./node_modules/@microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+
+    <script>
+        $(document).ready(() => {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("https://localhost:7286/myhub")
+                .build();
+
+            connection.start()
+                .then(() => $("h4").html(connection.connectionId));
+
+
+
+            connection.on("receiveMessage", message => {
+                alert(message);
+
+                return "Javascript Client Result";
+            });
+        })
+    </script>
+</head>
+<body>
+    <h4></h4>
+</body>
+</html>
